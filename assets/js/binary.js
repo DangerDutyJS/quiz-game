@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v4.0.14/---simulator","cdnUrl":"https://cdn.makecode.com","version":"0.0.1","target":"arcade","targetVersion":"4.0.14","repo":"dangerdutyjs/quiz-game"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v4.0.14/---simulator","cdnUrl":"https://cdn.makecode.com","version":"1.0.0","target":"arcade","targetVersion":"4.0.14","repo":"dangerdutyjs/quiz-game"}
 // total=2659559 new=2.58% cached=68.64% other=28.78%
 (function (ectx) {
 'use strict';
@@ -681,7 +681,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P53893(s) {
+function _main___P53928(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1269,13 +1269,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P53893.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/arcade-story/main.ts","functionName":"<main>","argumentNames":[]}
-_main___P53893.continuations = [ 57,63 ]
+_main___P53928.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/arcade-story/main.ts","functionName":"<main>","argumentNames":[]}
+_main___P53928.continuations = [ 57,63 ]
 
-function _main___P53893_mk(s) {
+function _main___P53928_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P53893, depth: s.depth + 1,
+        parent: s, fn: _main___P53928, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -67828,5 +67828,5 @@ const tiles_Location__C28338_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["transparency16___32160","tile1___32165","Yilmer___53731","puntos___53616"])
 
-return _main___P53893
+return _main___P53928
 })
