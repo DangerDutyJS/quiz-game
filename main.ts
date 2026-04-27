@@ -1225,7 +1225,7 @@ let Yilmer = sprites.create(img`
     ddddddddddddddddddddddbbbdddddddddddddddddddddddddddddddddddddd
     ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
     `, SpriteKind.Player)
-story.printCharacterText("Bienvenidos soy Yilmer este es un pequeño Quiz de conocimiento", "Yilmer")
+story.printCharacterText("Bienvenidos, soy Yilmer y este es un pequeño quiz de programación.", "Yilmer")
 primeraPregunta()
 segundaPregunta()
 terceraPregunta()
